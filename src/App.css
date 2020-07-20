@@ -1,0 +1,118 @@
+body {
+  background-color: #ededed !important;
+  font-family: "Open Sans", sans-serif;
+}
+
+.progress-bar {
+  height: 21px;
+  /* #6F75FF */
+}
+
+.progressWrapper span {
+  height: 15px;
+  border-radius: 15px;
+}
+
+.progressWrapper span.progress-bg {
+  left: 0;
+  top: 0;
+}
+
+.progressWrapper span.progress-bar {
+  left: 0;
+  top: 0;
+}
+
+.percentageText {
+  font-size: 0.6rem;
+  top: -7px;
+  font-weight: 500;
+}
+
+.assesmentProgress {
+  color: silver;
+  font-size: 0.875rem;
+}
+
+.progressRaw div.col-11,
+.progressRaw div.col-1 {
+  max-height: 15px;
+}
+
+.questionWrapper {
+  border-radius: 30px;
+}
+
+.questionWrapper .question {
+  font-weight: bold;
+}
+
+.finishButton {
+  border-radius: 15px;
+  background-color: #6f75ff !important;
+  border: 1px solid #6f75ff;
+}
+
+.finishButton .finishText {
+  font-size: 1.09rem;
+  font-weight: bold;
+}
+
+.irs--flat .irs-handle {
+  background-color: #6f75ff;
+  border-radius: 50%;
+}
+
+.irs--flat .irs-handle i {
+  display: none !important;
+}
+
+.irs--flat .irs-bar {
+  background-color: #6f75ff !important;
+}
+
+.irs--flat .irs-line {
+  background-color: white !important;
+  height: 15px;
+}
+
+.irs--flat .irs-min,
+.irs--flat .irs-max {
+  display: none !important;
+}
+
+.irs--flat .irs-from,
+.irs--flat .irs-to,
+.irs--flat .irs-single {
+  background-color: #6f75ff !important;
+}
+
+.irs--flat .irs-from:before,
+.irs--flat .irs-to:before,
+.irs--flat .irs-single:before {
+  border-top-color: #6f75ff !important;
+}
+
+.irs--flat .irs-handle {
+  top: 21px;
+  width: 22px;
+  height: 22px;
+}
+
+.irs--flat .irs-bar {
+  height: 15px;
+  border-radius: 15px;
+}
+
+.irs-from,
+.irs-to,
+.irs-single {
+  top: -5px;
+}
+
+.pageTransfer {
+  color: #3f51b5;
+  font-size: 0.875rem;
+  border: 1px solid #3f51b5;
+  background-color: white;
+}
